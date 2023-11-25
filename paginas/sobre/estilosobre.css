@@ -1,0 +1,71 @@
+body {
+    width: 98vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cabecalho {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.eu img {
+    width: 80px;
+    height: 80px;
+}
+
+.imagem {
+    width: 80px;
+    height: 80px;
+}
+
+.titulo {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo h3 {
+    margin-bottom: 0;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu h4 {
+    margin-top: 10px;
+}
+
+.principal {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.principal img {
+    width: 30%;
+    height: 100%;
+}
+
+.quemsoueu {
+    margin-left: 30px;
+}
+
+.texto {
+    max-width: 500px;
+    text-overflow: ellipsis;
+    margin: 0;
+    font-size: 18px;
+    text-align: justify;
+}

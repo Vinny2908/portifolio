@@ -1,0 +1,72 @@
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+p, i {
+    margin: 0;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.eu img {
+    width: 80px;
+    height: 80px;
+}
+
+.titulo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.eu {
+    width: 100%;
+    display: flex;
+    margin-top: -50px;
+}
+
+.eu p {
+    margin-left: 20px;
+}
+
+.principal {
+    width: 100%;    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.quadrado {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.primeira {
+    margin-top: 10px;
+}
+
+.quadrado i {
+    display: flex;
+    align-items: end;
+}
+
+.quadrado img {
+    width: 220px;
+    height: 220px;
+    border: 1px solid black;
+}
+
+.imagensEsquerdas {
+    margin-right: 3px;
+}
+
+.imagensDireitas {
+    margin-left: 3px;
+}
